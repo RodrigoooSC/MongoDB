@@ -9,7 +9,7 @@ Durante este curso, mergulhamos fundo no mundo do MongoDB, um banco de dados NoS
   - Introdução ao MongoDB e NoSQL.
   - Instalação e configuração do MongoDB.
   - Modelagem de documentos e coleções.
-  - 
+    
 - Consultas avançadas e otimização:
   - Utilização do operador de agregação para análise de dados.
   - Indexação e otimização de consultas.
