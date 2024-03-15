@@ -1,0 +1,77 @@
+// Comando para selecionar ou criar um banco de dados
+use minha_base_de_dados
+
+// Comando para criar uma coleção dentro do banco de dados
+db.createCollection("usuarios")
+
+// Comando para inserir um documento na coleção
+db.usuarios.insertOne({ nome: "Alice", idade: 30 })
+
+// Comando para inserir vários documentos na coleção
+db.usuarios.insertMany([{ nome: "Bob", idade: 25 }, { nome: "Charlie", idade: 35 }])
+
+// Comando para encontrar documentos que correspondem a um critério de consulta
+db.usuarios.find({ idade: { $gt: 25 } })
+
+// Comando para atualizar um único documento que corresponde ao critério de consulta
+db.usuarios.updateOne({ nome: "Alice" }, { $set: { idade: 31 } })
+
+// Comando para atualizar vários documentos que correspondem ao critério de consulta
+db.usuarios.updateMany({ idade: { $lt: 30 } }, { $inc: { idade: 1 } })
+
+// Comando para remover um único documento que corresponde ao critério de consulta
+db.usuarios.deleteOne({ nome: "Bob" })
+
+// Comando para remover vários documentos que correspondem ao critério de consulta
+db.usuarios.deleteMany({ idade: { $gte: 40 } })
+
+// Comando para executar uma operação de agregação em documentos na coleção
+db.usuarios.aggregate([{ $group: { _id: "$idade", count: { $sum: 1 } } },{ $sort: { _id: 1 } }])
+
+// Comando para encontrar e modificar um documento na coleção
+db.usuarios.findAndModify({ query: { nome: "Alice" }, update: { $inc: { idade: 1 } }, new: true })
+
+// Comando para indexar uma coleção
+db.usuarios.createIndex({ nome: 1 })
+
+// Comando para remover um índice de uma coleção
+db.usuarios.dropIndex({ nome: 1 })
+
+// Comando para renomear uma coleção
+db.usuarios.renameCollection("usuarios_novos")
+
+// Comando para contar o número de documentos em uma coleção
+db.usuarios.count()
+
+// Comando para ordenar os documentos em uma coleção
+db.usuarios.find().sort({ nome: 1 })
+
+// Comando para limitar o número de documentos retornados em uma consulta
+db.usuarios.find().limit(5)
+
+// Comando para pular os primeiros N documentos em uma consulta
+db.usuarios.find().skip(10)
+
+// Comando para fazer uma junção (join) entre duas coleções
+db.usuarios.aggregate([
+  {
+    $lookup: {
+      from: "pedidos",
+      localField: "usuario_id",
+      foreignField: "usuario_id",
+      as: "pedidos"
+    }
+  }
+])
+
+// Comando para criar um índice único em uma coleção
+db.usuarios.createIndex({ email: 1 }, { unique: true })
+
+// Comando para remover um documento específico em uma coleção
+db.usuarios.remove({ nome: "Alice" })
+
+// Comando para eliminar uma coleção
+db.usuarios.drop()
+
+// Comando para exibir informações sobre os índices de uma coleção
+db.usuarios.getIndexes()

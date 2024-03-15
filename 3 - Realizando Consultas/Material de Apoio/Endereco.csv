@@ -1,0 +1,259 @@
+_id,id_cliente,rua,numero,bairro,cidade,estado,cep
+1,1,Rua Porto da Folha,404,Suíssa,Aracaju,SE,49050-610
+2,2,Rua Guatemala,507,Cauamé,Boa Vista,RR,69311-071
+3,2,São Bento Abade,833,Jardim Marilena,Guarulhos,SP,07140-450
+4,3,Escoteiro Fernando César,646,Nova Era,Juiz de Fora,MG,36087-380
+5,4,Euza D'Aparecida Roriz dos Anjos,617,Setor Leste,Luziânia,GO,72803-590
+6,5,João Alberto,224,Santa Clara,São Luís,MA,65058-623
+7,6,Rua das Camelias,333,Santa Tereza,São Luís,MA,65058-623
+8,7,Rua das Acácias,287,Centro,Parnamirim,RN,59140-030
+9,8,3ª Travessa Alemanha,578,Passagem de Areia,Parnamirim,RN,59145-322
+10,9,Adelso Ferreira Tavares,661,Tubalina,Uberlândia,MG,38412-010
+11,10,Santa Justina Sartori,945,Jardim Porto Alegre,Toledo,PR,85906-310
+12,11,João Aires Leitão,534,Paraviana,Boa Vist,RR,69307-370
+13,12,Travessa João Passos,191,Olaria,Aracaju,SE,49092-200
+14,12,Rua Luís de Melo,310,Prata,Campina Grande,PB,58400-545
+15,13,Avenida Aeroclube,156,Tambor,Campina Grande,PB,58414-710
+16,14,Quadra QR 121,143,Samambaia Sul (Samambaia),Brasília,DF,2301-800
+17,15,Projetada 769,715,Montanhês,Rio Branco,AC,69921-482
+18,16,Manoel Eudóxio Pereira,894,Jesus de Nazaré,Macapá,AP,68908-123
+19,17,Rua Leão de Judá,960,Colônia Terra Nova,Manaus,AM,69015-305
+20,18,Cinco,936,Belmonte,Belo Horizonte,MG,31870-090
+21,19,Quadra QR 403 Conjunto 1,954,Samambaia Norte (Samambaia),Brasília,DF,72319-101
+22,20,Avenida Flaviano Carvalho Moreno,244,Parque Residencial Universitário,Rondonópolis,MT,78750-360
+23,21,Rua Nonoai,955,Santa Teresa,São Leopoldo,RS,93037-200
+24,22,Rua Zagalo,271,Sitio Floresta Linda,Belford Roxo,RJ,26175-290
+25,22,Travessa João Deus Gasso,435,Tarumã,Bagé,RS,96410-590
+26,23,Rua Júlio Dittmar 1085,503,Monte Castelo,Campo Grande,MS,79010-921
+27,24,Rua Carlos Pedro dos Santos,132,Oitizeiro,João Pessoa,PB,58087-215
+28,25,Conjunto Valentina Figueiredo,490,Valentina de Figueiredo,João Pessoa,PB,58063-760
+29,26,Rua João Carminatti,165,Urussanguinha,Araranguá,SC,88905-372
+30,27,Rua Otoniel da Cunha,817,Martins,Rio Verde,GO,75904-126
+31,28,Rua Jansen,445,Samapi,Teresina,PI,64058-304
+32,29,Rua Americana,633,Passo Manso,Blumenau,SC,89032-620
+33,30,Avenida Terra,929,Vitória,São Mateus,ES,29942-410
+34,31,Rua Patinho de Minas Gerais,389,Campo Limpo,Feira de Santana,BA,44032-248
+35,32,Rua Areia Branca,723,Itapuã,Vila Velha,ES,29101-550
+36,33,Quadra Quatro,713,Cabanagem,Belém,PA,66625-814
+37,33,Quadra QNR 5 Conjunto I,115,Ceilândia Norte (Ceilândia),Brasília,DF,72275-668
+38,34,2ª Vila Padre João Maria,834,Alecrim,Natal,RN,59035-359
+39,35,Rua Jardim Primavera,546,Tarumã,Manaus,AM,69021-070
+40,36,Rua Capimirim,832,Brooklin Paulista,São Paulo,SP,04558-090
+41,37,Quadra Quarenta e Nove,468,Maguari,Ananindeua,PA,67146-049
+42,38,Rua Raul Bopp,799,Vista Alegre,Cacoal,RO,76960-066
+43,39,Rua Dois Amigos,731,Austin,Nova Iguaçu,RJ,26086-195
+44,40,Rua Guaracy Carneiro,173,Manguinhos,Serra,ES,29173-091
+45,41,Rua Maranhão,954,Jardim Aureny I (Taquaralto),Palmas,TO,77060-132
+46,42,Servidão Edmundo Procknow,577,Bom Retiro,Joinville,SC,89223-205
+47,43,Rua Pinheiro,539,Bela Vista,Altamira,PA,68374-744
+48,44,Rua França,750,Park dos Buritis,Redenção,PA,68552-764
+49,45,Rua Cristiano Perozza 149,943,Centro,Caxambu do Sul,SC,89880-970
+50,46,Rua Manoel Batista,437,Linha do Tiro,Recife,PE,52131-690
+51,47,Travessa da Amizade,581,Loteamento Santa Helena,Rio Branco,AC,69908-660
+52,48,Rua Acre,163,Aeroporto Velho,Rio Branco,AC,69911-057
+53,49,Rua Patuana,293,Subaé,Feira de Santana,BA,44079-216
+54,50,Quadra QR 402 Conjunto 21,284,Samambaia Norte (Samambaia),Brasília,DF,72318-021
+55,50,Rua Francisco Gonçalo Filho,256,Jardim Aeroporto,Bayeux,PB,58308-282
+56,51,Travessa São Cristóvão,186,Pirajá,Juazeiro do Norte,CE,63034-235
+57,52,Quadra QN 32 Conjunto 7,579,Riacho Fundo II,Brasília,DF,71880-732
+58,53,Rua Olavo Ivanhoé de Brito Bacellar,957,Planalto de Monteserra The,Parnaíba,PI,64207-630
+59,54,Rua João Balestreiro,517,Tucum,Cariacica,ES,29152-490
+60,55,Rua Coronel Antônio Fernandes Pacilha,248,Arroio da Manteiga,São Leopoldo,RS,93120-640
+61,56,Rua Poeta Ovídio Saraiva,286,São Judas Tadeu,Parnaíba,PI,64206-510
+62,57,Rua João de Paula Ramos,597,Jardim São Francisco,Leme,SP,13617-407
+63,58,Rua Elza Mariz Maia,702,Alto do Céu,João Pessoa,PB,58027-575
+64,59,Rua Gaivota II,312,Conjunto Ouricurí,Rio Branco,AC,69903-206
+65,60,Travessa Pirajá,266,Marco,Belém,PA,66095-631
+66,61,Rua M,177,Setor União V,Gurupi,TO,77413-810
+67,62,Rua Jaguar,295,Loteamento Jaguar,Rio Branco,AC,69903-294
+68,63,Avenida Oitava,544,Marabaixo,Macapá,AP,68909-844
+69,64,Rua José Mariano da Silva,529,Funcionários,João Pessoa,PB,58078-410
+70,65,Rua São Benedito,615,Anjo da Guarda,São Luís,MA,65086-210
+71,66,Rua Antonio Costa,836,Boa Vista,Picos,PI,64600-598
+72,67,Rua Deputado Florestan Fernandes,698,Fidélis,Blumenau,SC,89060-287
+73,68,Rua Dois,245,Brejo da Guabiraba,Recife,PE,52291-206
+74,68,Rua Cetral,24,Torrões,Recife,PE,52291-206
+75,69,Quadra CRNW 508,194,Setor Noroeste,Brasília,DF,70687-600
+76,70,Rua Artur Bernardes,321,Casa Grande,Diadema,SP,09960-750
+77,71,Rua Poeta Augusto dos Anjos,284,Atalaia,Aracaju,SE,49038-150
+78,72,Rua D,292,Esperança,Ilhéus,BA,45658-672
+79,73,Rua 16,360,Flanboyant Residencial Park,Ponta Porã,MS,79906-082
+80,74,Rua Paulo Aguiar de Albuquerque,370,Nova Esperança,Parnamirim,RN,59144-300
+81,75,Alameda Soeiro,270,Ponta Grossa (Icoaraci),Belém,PA,66812-465
+82,76,Rua das Flores,478,Nossa Senhora da Apresentação,Natal,RN,59114-105
+83,77,Avenida 9,591,Provedor I,Santana,AP,68927-170
+84,78,Rua Augusto Wunderwald,318,Brasília,São Bento do Sul,SC,89282-610
+85,79,Avenida Sylvia Monteiro Franco,703,Jardim Elvira Dias,Poços de Caldas,MG,37718-101
+86,80,Rua Emílio Muller,722,Morada do Vale II,Gravataí,RS,94120-040
+87,81,Travessa Bicas,972,Vila Marli,Campo Grande,MS,79117-031
+88,82,Escadaria Seis,279,Recanto,Cachoeiro de Itapemirim,ES,29303-022
+89,83,Rua Cleilde Melo Cabral,827,Senador Hélio Campos,Boa Vista,RR,69316-618
+90,84,Rua DI-14,670,Distrito Industrial Marcus Vinícius Feliz Machado,Bauru,SP,17039-742
+91,85,Quadra Quadra 63,730,Jardim da Barragem IV,Águas Lindas de Goiás,GO,72920-370
+92,86,Rua Hélio Walcacer,597,Bangu,Rio de Janeiro,RJ,21840-520
+93,87,Rua Rosalvo Calheiros Melo 141,953,Centro,Messias,AL,57990-970
+94,88,Rua Almeida Júnior,286,Olinda,Nilópolis,RJ,26510-780
+95,89,Rua D,997,Bonfim,Almirante Tamandaré,PR,83511-240
+96,90,Rua Atílio Corrêa,847,Conjunto José Abrão,Campo Grande,MS,79114-040
+97,91,Rua Antônio Violão,706,Esperança da Comunidade,Porto Velho,RO,76825-205
+98,92,Quadra QR 425 Conjunto 23,719,Samambaia Norte (Samambaia),Brasília,DF,72327-023
+99,93,Rua Quintino Nascimento,612,Carapina Grande,Serra,ES,29160-041
+100,94,Rua João Tomé,155,Monte Castelo,Fortaleza,CE,60325-220
+101,95,Rodovia BR-153,567,Loteamento Vila Azul,Araguaína,TO,77815-820
+102,96,Quadra 905 Sul Alameda 25,991,Plano Diretor Sul,Palmas,TO,77017-292
+103,97,Rua JT-12,581,Jardim Tropical,Boa Vista,RR,69314-619
+104,98,Rua Barão do Amazonas,302,Cascalheira,Porto Velho,RO,76813-142
+105,99,Rua Arlindo João Goulart,427,Praia João Rosa,Biguaçu,SC,88160-352
+106,100,Rua das Laranjeiras,357,Jardim Karla,Pinhais,PR,83328-350
+107,101,Rua São Francisco de Assis,278,Cidade Nova,Aracaju,SE,49070-380
+108,102,Rua Marli da Silveira Paiva,450,Mangabeira,João Pessoa,PB,58059-135
+109,103,Rua São Marcos,642,Isaura Parente,Rio Branco,AC,69918-274
+110,104,Rua 66,437,Pacaembu,Valparaíso de Goiás,GO,72872-354
+111,105,Beco Quatro,208,Boa Vista,Timon,MA,65631-520
+112,106,Rua Cinco,662,Novo Milênio,Cuiabá,MT,78092-001
+113,107,Rua X,495,Japãozinho,Aracaju,SE,49063-214
+114,108,Rua Antônio Coelho Netto,994,Vivendas do Parque,Campo Grande,MS,79044-770
+115,108,Avenida João Batista Coutinho,802,Novo Buritizal,Macapá,AP,68904-276
+116,109,Rua Ilha Bela,594,Manuel Sátiro,Fortaleza,CE,60713-020
+117,110,Rua Comandante Essen Pinheiro,469,Treze de Setembro,Boa Vista,RR,69308-130
+118,111,Rua Pedro Marinho,526,Rincão,Mossoró,RN,59626-240
+119,112,Quadra 306 Sul Avenida NS 4,817,Plano Diretor Sul,Palmas,TO,77021-028
+120,113,Rua Oitenta e Um,690,Jardim Atlântico Leste (Itaipuaçu),Maricá,RJ,24933-730
+121,114,Quadra QNM 23 Conjunto B,235,Ceilândia Sul (Ceilândia),Brasília,DF,72215-232
+122,115,Rua Barbacena,624,Torrões,Recife,PE,50650-200
+123,116,Rua 1,894,Jardim Eldorado,Gurupi,TO,77403-210
+124,117,Rua Firmino de Vasconcelos,583,Ponta da Terra,Maceió,AL,57030-680
+125,118,Rua Imaculada Conceição,734,Jorge Teixeira,Manaus,AM,69099-862
+126,119,Rua Ademir José Kerber,595,Santo Afonso,Novo Hamburgo,RS,93420-260
+127,120,Rua Rio de Janeiro,389,Conjunto Solar,Rio Branco,AC,69918-618
+128,121,Acesso CPC Ave Verde,857,Pedra Mole,Teresina,PI,64066-720
+129,122,Rua Onze,264,Jardim Sumaré,Rondonópolis,MT,78720-764
+130,123,Travessa Sebastiana Pereira Brandão,329,Velame,Campina Grande,PB,58418-008
+131,124,Quadra QNR 4 Área Especial 18,512,Ceilândia Norte (Ceilândia),Brasília,DF,72275-546
+132,125,Rua Castelo,150,Santa Isabel,Várzea Grande,MT,78150-792
+133,126,Avenida Senador Lemos,508,Telégrafo Sem Fio,Belém,PA,66113-003
+134,127,Rua Altino Diniz Andrade,518,Alterosa,Ribeirão das Neves,MG,33821-370
+135,128,Quadra Quadra 5 Bloco M,711,Setor Residencial Leste (Planaltina),Brasília,DF,73360-513
+136,129,Rua H,991,Morada do Ouro - Setor Norte,Cuiabá,MT,78053-474
+137,130,Rua Zuldimar Saraiva de Pinho,677,Jardim Caranã,Boa Vista,RR,69313-692
+138,131,Rua 13 de Maio,953,Canarinho,Boa Vista,RR,69306-550
+139,132,Travessa Padre Cícero,689,São Bernardo,São Luís,MA,65056-140
+140,133,Rua de Eurídice Rodrigues Brito,930,Jardim Sevilha,Gurupi,TO,77410-468
+141,134,Rua Bernardino Rodrigues Montalvão,978,Jardim Cangalha,Três Lagoas,MS,79604-224
+142,135,Rua Amadeu de Giácomo,834,Portal Norte,Londrina,PR,86079-600
+143,136,Rua Breves,309,Caioaba,Nova Iguaçu,RJ,26015-200
+144,137,Via Local Três,453,Cabralzinho,Macapá,AP,68906-838
+145,138,Avenida Capitão-mor Gouveia,538,Lagoa Nova,Natal,RN,59063-410
+146,139,Rua Doutor Carlos Eloy Reichmann,631,Abranches,Curitiba,PR,82220-565
+147,140,Rua 07,375,Jardim Tropical,Boa Vista,RR,69314-610
+148,141,Rua Joaquim Martins Pereira,839,Ponte Nova,Várzea Grande,MT,78115-306
+149,142,Rua Curitiba,147,Setor 03,Ariquemes,RO,76870-338
+150,143,Rua Sete,819,Goiás,Araguari,MG,38442-082
+151,144,Rua Hera,604,Alto do Sumaré,Mossoró,RN,59632-178
+152,145,Rua Bom Menino,791,Anjo da Guarda,São Luís,MA,65085-110
+153,146,Travessa C,937,Capucho,Aracaju,SE,49081-099
+154,147,Rua Pintor Newton Navarro,923,Pitimbu,Natal,RN,59066-370
+155,148,Rua Jabaquara,607,Boa Vista,Fortaleza,CE,60861-200
+156,149,Rua Irlandino Pereira Benevides,667,Guarituba,Piraquara,PR,83311-350
+157,150,Rua Rio Bonito,864,Aeroclube,Porto Velho,RO,76811-106
+158,151,Travessa João Pessoa,365,COHAB,Tucuruí,PA,68459-603
+159,152,Rua Clodomir Begot,367,Cidade Nova,Ananindeua,PA,67140-690
+160,153,Rua Ana Georgina da Rosa,275,Centro,São José,SC,88103-210
+161,154,Alameda Bauxita,581,Alphaville,Santana de Parnaíba,SP,06540-180
+162,155,Rua Saica,708,Petrópolis,Porto Alegre,RS,90670-110
+163,156,Rua da Lapa,913,Jardim Morumbi,Cambé,PR,86191-767
+164,157,Travessa São Donato,144,Conjunto Habitacional Cidade de Deus,Rondonópolis,MT,78734-234
+165,158,Rua Maria Luiza de Mello,991,Jardim Barbacena,Cotia,SP,06710-403
+166,159,Rua Arquiteto Joaquim Barreto,777,Conjunto Aero Rancho,Campo Grande,MS,79084-300
+167,160,Rua Gararu,928,Cirurgia,Aracaju,SE,49055-235
+168,161,Rua Gondim Rodrigues de Melo,997,Eldorado,Arapiraca,AL,57306-070
+169,162,Rua 44A,495,Cidade Universitária,Maceió,AL,57073-198
+170,163,Beco dos Amigos,344,Comara,Rio Branco,AC,69906-324
+171,164,Travessa Sn-22,307,Cidade Nova,Ananindeua,PA,67140-600
+172,165,Rua Mergulho,113,CPA IV,Cuiabá,MT,78058-155
+173,166,Rua da Assembléia de Deus,690,Jardim Tropical,Serra,ES,29162-030
+174,167,Quadra 607 Sul Alameda 2,173,Plano Diretor Sul,Palmas,TO,77016-500
+175,168,Rua J,353,Cidade Satélite,Boa Vista,RR,69317-510
+176,169,Rua José de Souza Dantas,346,Miramar,João Pessoa,PB,58043-370
+177,170,Rua Cezar Campos,322,Alto da Conceição,Mossoró,RN,59600-310
+178,171,Rua Andirás,414,Petrópolis,Manaus,AM,69067-490
+179,172,Rua Artur Marinho,180,Jardim Sayonara,Campo Grande,MS,79103-400
+180,173,Rua Major Ladislau Ferreira,777,Dom Giocondo,Rio Branco,AC,69900-279
+181,174,Rua Antônio Z Neves,963,Boa Vista,Arcoverde,PE,56519-480
+182,175,Quadra 11,749,Mocambinho,Teresina,PI,64010-819
+183,176,Quadra 1112 Sul Via de Pedestre 1,290,Plano Diretor Sul,Palmas,TO,77024-164
+184,177,Rua 1,867,Siqueira,Fortaleza,CE,60732-835
+185,178,Rua Gilberto Marcelino Sobrinho,295,Nova Betânia,Mossoró,RN,59607-450
+186,179,Avenida Central,105,Vila Planalto,Brasília,DF,70804-200
+187,180,Viela Ilha do Francês,288,Jardim Zaira,Mauá,SP,09321-500
+188,181,Rua Gralha-azul,987,Conjunto Habitacional Sanenge,Maringá,PR,87075-674
+189,182,Rua Tramandai,856,São Luiz Gonzaga,Passo Fundo,RS,99051-100
+190,183,Rua Itabira,215,Novo Aleixo,Manaus,AM,69099-375
+191,184,Rua Colômbia,414,Marajoara,Várzea Grande,MT,78138-236
+192,185,Rua César Trauczynski Júnior,678,Porto das Laranjeiras,Araucária,PR,83703-062
+193,186,Rua Clara Felice Angoti,676,Beija-Flor II,Uberaba,MG,38051-434
+194,187,Rua SN 10,258,Icuí-Guajará,Ananindeua,PA,67125-657
+195,188,Quadra QS 623,802,Samambaia Norte (Samambaia),Brasília,DF,72333-540
+196,189,Conjunto SHA Conjunto 5 Chácara 89-3,325,Setor Habitacional Arniqueira (Águas Claras),Brasília,DF,71995-320
+197,190,Rua Cento e Oitenta e Nove,983,Jardim Atlântico Oeste (Itaipuaçu),Maricá,RJ,24935-265
+198,191,Rua Diamante,857,Floresta Sul,Rio Branco,AC,69912-314
+199,192,Rua Buriti Alegre,929,Parque Buriti,Goiânia,GO,74485-815
+200,193,Rua Coruja,224,Portal da Amazônia,Rio Branco,AC,69915-708
+201,194,Rua do Lírio,271,Setor 04,Ariquemes,RO,76873-466
+202,195,Alameda Chorão,626,Vale do Igapó,Bauru,SP,17037-270
+203,196,Rua Sebastião dos Reis,788,Nova Benfica,Juiz de Fora,MG,36091-090
+204,197,Rua Ursa Maior,919,Nossa Senhora da Conceição,Paulista,PE,53429-240
+205,198,Rua Ascenso Ferreira,581,Magano,Garanhuns,PE,55294-350
+206,198,Rua Vinte e Sete,449,Porto D'Antas,Aracaju,SE,49069-177
+207,199,Escadaria Joaquim dos Santos,884,Bonfim,Vitória,ES,29047-038
+208,200,Rua Primavera,638,Baixada da Cadeia Velha,Rio Branco,AC,69905-310
+209,201,Avenida Antônio Gil Veloso,481,Praia da Costa,Vila Velha,ES,29101-016
+210,202,Rua 69,927,Loteamento Nova Araguaína,Araguaína,TO,77815-090
+211,203,Avenida Nossa Senhora do Carmo,911,Carmo,Belo Horizonte,MG,30320-000
+212,204,Quadra Quadra 42,710,Jardim América VI,Águas Lindas de Goiás,GO,72921-632
+213,205,Travessa Manoel Araújo da Silva,779,Edson Mororó Moura,Belo Jardim,PE,55150-521
+214,206,Avenida Amazonas,516,Estados,Boa Vista,RR,69305-670
+215,207,Rua A-31,972,Parque Sagrada Família,Rondonópolis,MT,78735-321
+216,208,Quadra Dirceu Arcoverde I,515,Itararé,Teresina,PI,64077-410
+217,209,Rua SC 1,327,São Carlos,Goiânia,GO,74477-084
+218,210,Rua Francisco Chagas Callou,397,Antônio Vieira,Juazeiro do Norte,CE,63022-220
+219,211,Quadra E,463,Clima Bom,Maceió,AL,57071-686
+220,212,Rua Y,622,Nova Imperatriz,Imperatriz,MA,65907-180
+221,213,Travessa Cecap,206,Nogueira,Barretos,SP,14783-258
+222,214,Rua 14,144,Vila Sofia,Jataí,GO,75801-325
+223,215,Rua Hermann Tribess,835,Tribess,Blumenau,SC,89057-473
+224,216,Rua 7,797,Vila Pedroso,Goiânia,GO,74770-190
+225,217,Quadra QN 501 Conjunto 7,912,Samambaia Sul (Samambaia),Brasília,DF,72311-207
+226,218,Rua Martins de Sousa,139,Passaré,Fortaleza,CE,60868-648
+227,219,Rua General Hipólito,648,Francisca Tarragô,Uruguaiana,RS,97503-410
+228,220,Rua Francisco Ruiz Rodrigues,182,Conjunto Habitacional Júlio de Mesquita Filho,Sorocaba,SP,18053-082
+229,221,3ª Travessa Frei Sampaio,564,Lira,São Luís,MA,65025-433
+230,222,Quadra QI 616 Conjunto B,441,Samambaia Norte (Samambaia),Brasília,DF,72322-812
+231,223,Vila Loio,928,Centro,Manaus,AM,69020-277
+232,224,Rua C,426,Zona de Expansão (Mosqueiro),Aracaju,SE,49008-048
+233,225,Travessa São Luiz,284,Cruz das Armas,João Pessoa,PB,58085-155
+234,226,Rua Ipiranga,919,Caladinho,Porto Velho,RO,76808-136
+235,227,Travessa Vitalino,766,Mondubim,Fortaleza,CE,60767-275
+236,228,Rua Sebastião Mazieiro,536,São Vicente,Araçatuba,SP,16050-055
+237,229,Avenida Jaime Brasil,825,Centro,Boa Vista,RR,69301-350
+238,230,Rua Milene Costa,632,Tiradentes,Porto Velho,RO,76824-568
+239,231,Travessa Cícero Moura,664,Ilha do Bispo,João Pessoa,PB,58011-455
+240,232,Travessa Faustino Silveira,512,Bebedouro,Maceió,AL,57017-675
+241,233,Rua Bariri do Meio,624,Plataforma,Salvador,BA,40710-615
+242,234,Avenida Otto Niemeyer,337,Tristeza,Porto Alegre,RS,91910-000
+243,235,Rua Carlindo G. de Mesquita,486,Goianiense,Catalão,GO,75705-410
+244,236,Rua Doutor Antonio Dorta 16,719,Centro,Porto Calvo,AL,57900-970
+245,237,Rua Cidade de Pedra Lavrada,546,Indústrias,João Pessoa,PB,58083-583
+246,238,Rua Guachupé,721,Vale Quem Tem,Teresina,PI,64057-555
+247,239,Rua Vicente Januth,659,Itanguá,Cariacica,ES,29149-580
+248,240,Rua Antônio da Costa,342,Recanto,Cachoeiro de Itapemirim,ES,29303-190
+249,241,Rua das Flores,927,Vila Brasil,São Luís,MA,65056-546
+250,242,Alameda Nossa Senhora Desatadora dos Nós,941,São José,Gravatá,PE,55643-552
+251,243,Rua Oswaldo Durival Rossi,814,Jardim Bothânico,Jaboticabal,SP,14875-060
+252,244,Rua Ingazeira,884,Boa Vista,Caruaru,PE,55038-075
+253,245,Quadra 709 Sul Alameda 12,363,Plano Diretor Sul,Palmas,TO,77017-138
+254,246,Rua Egito,242,Bom Sucesso,Gravataí,RS,94135-400
+255,247,Rua Armando Nogueira,316,Buritis,Boa Vista,RR,69309-160
+256,248,Rua 18,489,Setor União Sul,Palmas,TO,77062-100
+257,249,Rua Celso Furtado,772,Cupido,Aracruz,ES,29190-604
+258,250,Rua Francisco Firmino de Oliveira,237,Nova Esperança,Arapiraca,AL,57316-355

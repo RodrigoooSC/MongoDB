@@ -1,0 +1,138 @@
+###   MongoDB   ###
+Diferente dos bancos de dados relacionais, os banco de dados NoSQL têm a sua estrutura para armazenamento dos dados como também a sua linguagem de consulta. Devido a isso, surgiram vários tipos de bancos de dados e cada um tem a sua forma de trabalhar. Geralmente, eles são rotulados de acordo com a forma como os dados são armazenados, então vamos entender um pouquinho mais sobre estes tipos de banco de dados existentes a seguir:
+
+Gráfico: Em um banco orientado a grafos, não existem tabelas, documentos ou qualquer outra estrutura que seja comparável a uma tabela. Neste tipo de banco, tudo são nós (vértices) e relacionamentos (arestas).O mais popular deles é o Neo4j.
+
+Chave / valor: Todos os registros fazem parte da mesma coleção de elementos. Fazendo uma comparação com os bancos de dados relacionais, é como se o banco de dados inteiro fosse uma única tabela que possui apenas duas colunas: uma chave,e uma outra com valor. Um exemplo desse tipo é o Redis.
+
+Colunar: A estrutura principal dos bancos colunares é basicamente uma grande tabela. Cada registro pode, ter quantas e quais colunas precisar (schemaless). Os bancos de dados colunares são os que mais se assemelham aos bancos de dados relacionais por terem uma "tabela" na sua estrutura, mesmo que, na verdade, sejam muito diferentes, já que os dados estão orientados a colunas internamente. Um exemplo desse tipo é o Cassandra.
+
+Documento: O banco de dados de estilo de documento usa o que equivale a um objeto como sua menor unidade lógica. E uma coleção pode conter vários documentos. Por não haver um esquema fixo, cada documento pode ter um número e um tipo de campo diferente, o que contribui para a flexibilidade. Um exemplo desse tipo é MongoDB.
+
+O MongoDB será o foco dos nossos estudos, ele atualmente já é utilizado por diversas empresas para armazenar e trabalhar com os dados, um exemplo disso é a EA Sports FIFA que é a franquia de videogame esportivo mais vendida do mundo. Para atender milhões de jogadores, o estúdio de desenvolvimento Spearhead da EA selecionou o MongoDB para armazenar dados do usuário e estado do jogo.
+
+### Tipos de Dados   ###
+
+O MongoDB armazena registros de dados como documentos BSON, que é uma representação binária de documentos JSON.
+
+O valor de um campo em um documento pode ser qualquer um dos tipos de dados BSON, incluindo outros documentos, matrizes e matrizes de documentos, então vamos conhecer alguns desses tipos de dados?
+
+NULL: armazena valores nulos;
+
+Boolean: pode armazenar valores true ou falso;
+
+Number: número com sinal que pode ter uma notação com E exponencial;
+
+Inteiro: pode armazenar o tipo de dados inteiro em duas formas, inteiro assinado de 32 bits e inteiro assinado de 64 bits;
+
+String: uma sequência de um ou mais caracteres Unicode;
+
+Object: um array não ordenado com itens do tipo chave/valor, também conhecidos como documentos aninhados;
+
+Array: armazena uma lista ordenada de qualquer tipo, criada usando colchetes e com cada elemento separado por vírgulas;
+
+ObjectId: identificador único de um registro do MongoDB;
+
+Date(): retorna a data atual em formato de string; e
+
+New Date() e ISODate(): retornam um objeto de data.
+
+
+###   Filtros   ###
+
+FILTER: utilizado para especificar qual será a condição que os documentos devem atender para serem retornados na busca.
+
+PROJECT: utilizado para especificar quais campos serão ou não retornados na consulta.
+
+Ao Informar o nome do campo e informar 0, todos os campos, exceto os campos especificados no campo project, são retornados. Se o campo receber o valor de 1, ele será retornado na consulta. O campo _id é retornado por padrão, a menos que este seja especificado no campo project e definido como 0.
+SORT: especifica a ordem de classificação dos documentos retornados.
+
+Para especificar a ordem crescente de um campo, defina o campo como 1.
+Para especificar a ordem decrescente de um campo, defina o campo como -1.
+MAX TIME MS: define o limite de tempo cumulativo em milissegundos para processar as operações da barra de consulta. Se o limite de tempo for atingido antes da conclusão da operação, o Compass interrompe a operação.
+
+COLLATION: utilizado para especificar regras específicas do idioma para comparação de textos, como regras para letras maiúsculas ou minúsculas, acentos, entre outros.
+
+SKIP: especifica quantos documentos devem ser ignorados antes de retornar o conjunto de resultados.
+
+LIMIT: especifica o número máximo de documentos a serem retornados.
+
+###  Comandos MongoDB  ###
+
+- Criar Coleção:
+
+db.createCollection("Nome_da_Colecao").
+
+Os nomes das coleções devem começar com um sublinhado ou um caractere de letra.
+Não podem conter o $.
+Ser uma string vazia (por exemplo "", ).
+Conter o caractere nulo.
+Começar com o system.prefixo. (Reservado para uso interno).
+
+- Excluir BancoDeDados/Coleção:
+
+db.dropDatabase()
+
+db.series.drop()
+
+- Inserindo documentos:
+
+db.series.insertOne({
+	"Séries":"Made in Heaven",
+	"Temporadas disponíveis":1,
+	"Linguagem":"Hindi",
+	"Genero":["Drama"],
+	"IMDb Avaliação":8.3,
+	"Classificação":"18+"
+	})
+
+db.series.insertMany([{
+	"Séries": "Made in Heaven",
+	"Temporadas disponíveis": 1,
+	"Linguagem": "Hindi",
+	"Genero": ["Drama"],
+	"IMDb Avaliação": 8.3,
+	"Classificação": "18+"
+	},{
+	"Séries": "Made in Heaven",
+	"Temporadas disponíveis": 1,
+	"Linguagem": "Hindi",
+	"Genero": ["Drama"],
+	"IMDb Avaliação": 8.3,
+	"Classificação": "18+"
+	},{
+	"Séries": "Made in Heaven",
+	"Temporadas disponíveis": 1,
+	"Linguagem": "Hindi",
+	"Genero": ["Drama"],
+	"IMDb Avaliação": 8.3,
+	"Classificação": "18+"
+	}])
+	
+	
+- Operadores or/and/not/in/:
+
+{$or: [{"Ano de lançamento": 2018}, {"Classificação": "18+"}]}
+{$and: [{"Ano de lançamento": 2018}, {"Classificação": "18+"}]}
+{$nor: [{"Ano de lançamento": 2018}, {"Classificação": "18+"}]} - operador de negação
+{"Ano de lançamento": {$in: [2019, 2020]}}
+
+{"Temporadas disponíveis": {$gt: 2}}-- >
+{"Temporadas disponíveis": {$gte: 2}} -- >=
+{"Temporadas disponíveis": {$lt: 2}} -- <
+{"Temporadas disponíveis": {$lte: 2}} -- <=
+
+
+- Atualizando documentos:
+
+db.series.updateOne({"Série":"Grimm"},{$set:{"Temporadas disponíveis": 6}}) 
+
+db.series.updateMany({"Série":{$in:["Grimm", "Fleabag"]}},{$set:{"Classificação": "18+"}}) 
+
+
+- Deletando documento:
+
+db.series.deleteOne({"Série":"The Boys"})
+
+db.series.deleteMany({"Temporadas disponíveis":1})
+

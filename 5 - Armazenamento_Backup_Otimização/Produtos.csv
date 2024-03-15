@@ -1,0 +1,69 @@
+_id,categoria produto,preco,custos,estoque
+1,agro industria e comercio,"155,00","46,50",30
+2,alimentos,"58,00","25,00",20
+3,alimentos e bebidas,"119,00","70,00",52
+4,artes,"84,00","40,00",4
+5,artes e artesanato,"99,00","47,00",45
+6,artigos de festas,"198,00","65,00",100
+7,artigos de natal,"106,00","71,00",25
+8,audio,"82,00","35,00",99
+9,automotivo,"101,00","87,00",47
+10,bebes,"159,00","101,00",56
+11,bebidas,"131,00","95,20",12
+12,beleza e saude,"86,00","25,80",5
+13,brinquedos,"136,00","87,31",235
+14,cama mesa e banho,"171,00","55,85",7
+15,casa e conforto,"108,00","47,00",5
+16,casa e construcao,"179,00","121,58",3
+17,cds dvds e musicais,"84,00","42,69",55
+18,cine e foto,"177,00","130,87",89
+19,climatizacao,"52,00","15,60",45
+20,consoles e games,"168,00","132,96",65
+21,ferramentas de construcao,"95,00","61,27",49
+22,ferramentas,"172,00","73,98",57
+23,ferramentas de iluminacao,"117,00","69,45",63
+24,ferramentas de jardim,"155,00","106,54",19
+25,ferramentas de seguranca,"83,00","43,26",79
+26,dvds blu ray,"88,00","39,46",25
+27,eletrodomesticos,"100,00","63,18",78
+28,eletronicos,"57,00","26,58",27
+29,eletroportateis,"93,00","36,78",12
+30,esporte e lazer,"187,00","129,65",53
+31,fashion bolsas e acessorios,"197,00","147,87",25
+32,fashion calcados,"173,00","98,38",18
+33,fashion esporte,"176,00","60,28",27
+34,fashion roupa feminina,"192,00","97,48",56
+35,fashion roupa infanto e juvenil,"178,00","85,24",71
+36,fashion roupa masculina,"66,00","25,67",68
+37,fashion underwear e moda praia,"69,00","32,89",63
+38,ferramentas de jardim,"65,00","35,25",52
+39,flores,"130,00","90,36",8
+40,fraldas e higiene,"120,00","45,21",55
+41,industria comercio e negocios,"162,00","58,69",41
+42,informatica acessorios,"190,00","68,54",25
+43,instrumentos musicais,"105,00","50,47",23
+44,la cuisine,"97,00","58,36",54
+45,livros importados,"59,00","23,55",2
+46,livros tecnicos,"55,00","20,36",9
+47,malas acessorios,"186,00","55,80",52
+48,market place,"105,00","87,69",8
+49,colchao e estofado,"179,00","53,70",17
+50,moveis cozinha area de servico jantar e jardim,"69,00","40,58",52
+51,moveis  de decoracao,"136,00","96,47",13
+52,moveis de escritorio,"115,00","82,14",78
+53,moveis do quarto,"54,00","42,30",5
+54,moveis da sala,"129,00","52,98",14
+55,musica,"88,00","60,35",33
+56,papelaria,"121,00","86,25",58
+57,pcs,"176,00","98,24",24
+58,perfumaria,"63,00","20,69",58
+59,pet shop,"80,00","24,00",74
+60,portateis da casa forno e cafe,"168,00","103,58",68
+61,portateis da cozinha e preparadores de alimentos,"74,00","49,14",36
+62,relogios e presentes,"53,00","15,90",57
+63,seguros e servicos,"126,00","78,25",43
+64,sinalizacao e seguranca,"137,00","92,89",26
+65,tablets impressao e imagem,"174,00","87,20",35
+66,telefonia,"163,00","113,65",74
+67,telefonia fixa,"191,00","100,36",14
+68,utilidades domesticas,"161,00","129,74",25
