@@ -8,7 +8,6 @@ Neste curso, exploramos profundamente o MongoDB, um banco de dados NoSQL altamen
 - Fundamentos do MongoDB:
   - Introdução ao MongoDB e NoSQL.
   - Instalação e configuração do MongoDB.
-  - Operações básicas de CRUD (Create, Read, Update, Delete).
   - Modelagem de documentos e coleções.
   - Consultas avançadas e otimização:
 
